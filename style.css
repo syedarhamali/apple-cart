@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(46, 139, 86, 0.849);
+    position: relative;
+}
+.card_div{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    margin: 5% 20%;
+    border-radius: 10px;
+    display: flex;
+}
+.main_apple{
+    margin:20px -23px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.151);
+    
+}
+.main_apple img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 440px;
+    height: 370px;
+}
+
+.select_apple ul li {
+    display: inline-block;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    padding: 0 12px;
+    margin: 10px;
+}
+
+.select_apple ul li img{
+    width: 60px;
+    height: 60px;
+}
+
+.second_div{
+    margin: 5% 8%;
+}
+
+#txt {
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.silver{
+    font-size: 14px;
+    color: silver;
+}
+
+.red1{
+    margin: 16px 0 ;
+    font-size: 20px; 
+    color: red;
+}
+#red{
+    font-size: 60px;
+    color: red;
+}
+
+.select_apple2 img{
+    width: 50px;
+    height: 43px;
+}
+.select_apple2 ul li{
+    margin: 17px 4px;
+    display: inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.151);
+}
+ul li:hover{
+    border: 2px solid black;
+}
+.txt{
+    pointer-events: none;
+    margin: 16px ;
+    width: 500px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 23px;
+}
+
+.btn{
+    text-align: center;
+    background-color: #D95348;
+    color: white;
+    width: 240px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600px !important;
+}
